@@ -19,6 +19,8 @@ services:
   build-release:
     build: ${BUILD_CONTEXT:-./centos7}
     volumes:
+      - /usr/share/maven:/usr/share/maven:ro
+      - /usr/bin/mvn:/usr/bin/mvn:ro
       - ~/.m2:/root/.m2:rw
       - ~/.sbt:/root/.sbt:rw
       - ~/.cargo/git:/root/.cargo/git:rw

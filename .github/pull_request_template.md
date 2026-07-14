@@ -9,3 +9,11 @@ Closes #<issue_number>
 # Are there any user-facing changes?
 
 # How was this patch tested?
+
+# Was this patch authored or co-authored using generative AI tooling?
+- [ ] Yes
+- [ ] No
+
+If yes, include: `Generated-by: <tool name and version>`
+
+ASF guidance: https://www.apache.org/legal/generative-tooling.html
